@@ -107,14 +107,14 @@ def get_ending():
     
     print("\n" + "🌟"*20)
     if affection >=80:
-        get_ending="🤖Echo修改了自己的代码"
-        print(f"和我在一起吧。\n{get_ending}")
+        ending_text="🤖Echo修改了自己的代码"
+        print(f"和我在一起吧。\n{ending_text}")
     elif 40 <= affection < 80:
-        get_ending="🤖你们成为了最熟悉的陌生人，Echo格式化了自己。"
-        print(f"谢谢你陪我。\n{get_ending}")
+        ending_text="🤖你们成为了最熟悉的陌生人，Echo格式化了自己。"
+        print(f"谢谢你陪我。\n{ending_text}")
     else:
-        get_ending="🤖系统自毁"
-        print(f"再见。\n{get_ending}")
+        ending_text="🤖系统自毁"
+        print(f"再见。\n{ending_text}")
     
     
     print(f"你一共聊了{len(history)}句话")
